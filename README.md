@@ -4,7 +4,7 @@ A set of custom nodes for ComfyUI to help you monitor and manage your VRAM and s
 
 ## 🛠️ Installation
 
-Follow these simple steps to get the VRAM Tools node up and running in your ComfyUI environment.
+Follow these simple steps to get the node up and running in your ComfyUI environment.
 
 ### Step 1. Clone the Repository
 
