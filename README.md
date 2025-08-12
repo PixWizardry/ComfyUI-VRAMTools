@@ -36,15 +36,10 @@ This node resets the peak VRAM memory counter in PyTorch. It's a simple but powe
     *   `passthrough_*`: Can accept and pass through any data type (images, models, latents, etc.) without modifying them. This allows you to place it anywhere in your workflow.
 *   **Use Case:**
     *   Place this node right before a demanding operation (like a KSampler or a model loader) to measure exactly how much VRAM that specific operation requires.
-*   **How to find it:**
-    *   You can find this node under the **VRAM Tools** category in the node menu. You can also search for `Reset VRAM Peak Counter`.
 
 ### 2. Log VRAM Peak Usage
 
 This node logs a detailed snapshot
-
-Of course! Here are the detailed instructions on how to find the nodes within ComfyUI, complete with emojis for clarity.
-
 
 ## 🔎 How to Find the Node in ComfyUI
 
