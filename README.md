@@ -1,6 +1,6 @@
 # ComfyUI VRAM Tools
 
-A set of essential utilities for ComfyUI to help you monitor and manage your VRAM (Video RAM) and system RAM usage. These tools are designed to provide clear insights into how your workflows are impacting your system's memory, allowing you to optimize for performance and prevent crashes.
+A set of custom nodes for ComfyUI to help you monitor and manage your VRAM and system RAM usage. These tools are designed to provide clear insights into how your workflows are impacting your system's memory, allowing you to optimize for performance and prevent crashes.
 
 ## 🛠️ Installation
 
@@ -42,3 +42,31 @@ This node resets the peak VRAM memory counter in PyTorch. It's a simple but powe
 ### 2. Log VRAM Peak Usage
 
 This node logs a detailed snapshot
+
+Of course! Here are the detailed instructions on how to find the nodes within ComfyUI, complete with emojis for clarity.
+
+***
+
+## 🔎 How to Find the Node in ComfyUI
+
+Once everything is installed, you can find the node under the following category:
+
+*  Right-click on the canvas
+*  Select "Add Node"
+*  In the next menu, find and click on the **"VRAM Tools"** category.
+*  You will see the list of available nodes:
+    *   `Reset VRAM Peak Counter`
+    *   `Log VRAM Peak Usage`
+5.  Click on the node you want to add, and it will appear on your canvas.
+
+#### 2. The Search Feature (Quickest Method) ⚡
+
+If you prefer using the keyboard, the search feature is the fastest way to find any node.
+
+1.  **Double-click** anywhere on the blank canvas of your workflow.
+2.  A search bar will pop up.
+3.  Start typing the name of the node you're looking for:
+    *   Type `Reset VRAM` to find the **Reset VRAM Peak Counter**.
+    *   Type `Log VRAM` to find the **Log VRAM Peak Usage**.
+4.  Click on the desired node from the search results to add it to your workflow.
+
