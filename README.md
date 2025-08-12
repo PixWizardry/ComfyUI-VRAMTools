@@ -45,7 +45,6 @@ This node logs a detailed snapshot
 
 Of course! Here are the detailed instructions on how to find the nodes within ComfyUI, complete with emojis for clarity.
 
-***
 
 ## 🔎 How to Find the Node in ComfyUI
 
@@ -57,16 +56,4 @@ Once everything is installed, you can find the node under the following category
 *  You will see the list of available nodes:
     *   `Reset VRAM Peak Counter`
     *   `Log VRAM Peak Usage`
-5.  Click on the node you want to add, and it will appear on your canvas.
-
-#### 2. The Search Feature (Quickest Method) ⚡
-
-If you prefer using the keyboard, the search feature is the fastest way to find any node.
-
-1.  **Double-click** anywhere on the blank canvas of your workflow.
-2.  A search bar will pop up.
-3.  Start typing the name of the node you're looking for:
-    *   Type `Reset VRAM` to find the **Reset VRAM Peak Counter**.
-    *   Type `Log VRAM` to find the **Log VRAM Peak Usage**.
-4.  Click on the desired node from the search results to add it to your workflow.
-
+*  Click on the node you want to add, and it will appear on your canvas.
