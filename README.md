@@ -58,3 +58,8 @@ This node resets the peak VRAM memory counter in PyTorch. It's a simple but powe
 ### 2. Log VRAM Peak Usage
 
 This node logs a detailed snapshot
+
+License
+-------
+This project is licensed under the GNU Affero General Public License v3.0.
+See the LICENSE file for details.
