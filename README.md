@@ -1,5 +1,12 @@
 # ComfyUI VRAM Tools
 
+![Python 3.12](https://img.shields.io/badge/Python-3.12-76B900) 
+![NVIDIA RTX Driver Release 580](https://img.shields.io/badge/RTX%20Driver-R580%20U1%20(580.88)-76B900)
+![Pytorch Ver 2.9.0.dev](https://img.shields.io/badge/Pytorch-2.9.0.dev-76B900)
+![Cuda Ver 12.9](https://img.shields.io/badge/Cuda-12.9-76B900)
+
+# WIP
+
 A set of custom nodes for ComfyUI to help you monitor and manage your VRAM and system RAM usage. These tools are designed to provide clear insights into how your workflows are impacting your system's memory, allowing you to optimize for performance and prevent crashes.
 
 ## 🛠️ Installation
@@ -22,6 +29,17 @@ git clone https://github.com/PixWizardry/ComfyUI-VRAMTools
 
 After the repository has been successfully cloned, make sure to restart ComfyUI. This will allow it to recognize and load the new custom node.
 
+## 🔎 How to Find the Node in ComfyUI
+
+Once everything is installed, you can find the node under the following category:
+
+*  Right-click on the canvas
+*  Select "Add Node"
+*  In the next menu, find and click on the **"VRAM Tools"** category.
+*  You will see the list of available nodes:
+    *   `Reset VRAM Peak Counter`
+    *   `Log VRAM Peak Usage`
+*  Click on the node you want to add, and it will appear on your canvas.
 
 ## ✨ Available Nodes
 
@@ -40,15 +58,3 @@ This node resets the peak VRAM memory counter in PyTorch. It's a simple but powe
 ### 2. Log VRAM Peak Usage
 
 This node logs a detailed snapshot
-
-## 🔎 How to Find the Node in ComfyUI
-
-Once everything is installed, you can find the node under the following category:
-
-*  Right-click on the canvas
-*  Select "Add Node"
-*  In the next menu, find and click on the **"VRAM Tools"** category.
-*  You will see the list of available nodes:
-    *   `Reset VRAM Peak Counter`
-    *   `Log VRAM Peak Usage`
-*  Click on the node you want to add, and it will appear on your canvas.
